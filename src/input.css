@@ -1,2 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Sora:wght@100..800&display=swap');
 @import "tailwindcss";
+@theme {
+  --font-adlam: "ADLaM Display", serif;
+  --font-sora: "Sora", serif;
+
+  --color-orange-light: rgba(255, 249, 244, 1);
+  --color-yellow-primary: rgba(255, 220, 38, 1);
+  --color-yellow-hover: rgba(238, 205, 34, 1);
+  --color-black-primary: #111111;
+}
