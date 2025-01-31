@@ -13,12 +13,13 @@
   <header>
 
     <!-- Nav Menu -->
-    <nav class="bg-orange-light py-3 lg:p-0">
-      <div class="max-w-[calc(100%-32px)] flex items-center justify-between mx-auto lg:max-w-7xl lg:min-h-28">
+    <nav class="bg-orange-light border border-black-primary py-3 lg:p-0">
+      <div
+        class="max-w-[calc(100%-32px)] flex items-center justify-between mx-auto lg:max-w-4xl lg:min-h-28 xl:max-w-5xl 2xl:max-w-7xl">
 
         <div class="bg-yellow-light lg:flex lg:items-center lg:gap-3">
           <img src="./assets/logo-header.png" alt="">
-          <h2 class="hidden lg:font-sora lg:font-sora lg:text-2xl">Pet<span class="text-yellow-primary">M</span>uff</h2>
+          <h2 class="hidden font-sora lg:text-2xl">Pet<span class="text-yellow-primary">M</span>uff</h2>
         </div>
 
         <ul class="hidden lg:flex lg:gap-8 lg:**:font-sora lg:**:text-xl lg:**:text-black-primary">
@@ -63,15 +64,17 @@
     <section class="lg:max-w-full lg:h-full">
 
       <div style="background-image: url('./assets/cat-big.png');"
-        class="bg-no-repeat bg-right-bottom bg-contain pt-8 pb-14 max-w-[calc(100%-32px)] min-h-[28rem] mx-auto lg:min-h-[55rem] lg:max-w-7xl lg:pt-20 lg:pb-36">
-        <h1 class="font-adlam text-black-primary text-pretty text-3xl lg:text-6xl lg:max-w-1/2 lg:leading-18">Pamper
+        class="bg-no-repeat bg-right-bottom bg-contain pt-8 pb-14 max-w-[calc(100%-32px)] min-h-[26rem] mx-auto lg:max-w-4xl  xl:min-h-[44rem] xl:max-w-5xl xl:pt-20 xl:pb-36 2xl:max-w-7xl">
+        <h1
+          class="font-adlam text-black-primary text-pretty text-3xl lg:text-4xl lg:max-w-1/2 lg:leading-14 xl:text-5xl xl:leading-18 2xl:text-6xl">
+          Pamper
           Your Pet,
           Because They Deserve the Best</h1>
         <p class="font-sora text-black-a1 mt-3 lg:text-xl lg:max-w-1/2 lg:mt-4">Discover a world of treats, toys, and
           essentials handpicked for your furry friends. Shop now and make tails wag with joy!</p>
         <div class="max-w-max mt-6">
           <a href="#"
-            class="text-base text-black-primary inline-block font-sora py-2.5 px-8 rounded-lg bg-yellow-primary lg:text-xl">Find
+            class="text-base text-black-primary inline-block font-sora py-2.5 px-8 rounded-lg bg-yellow-primary lg:text-xl animate-bounce">Find
             a pet</a>
         </div>
       </div>
@@ -81,6 +84,95 @@
 
   <!-- Main Section -->
   <main>
+    <!-- Browse by categories -->
+    <section class="max-w-full">
+
+      <div class="max-w-[calc(100%-32px)] mx-auto lg:max-w-4xl xl:max-w-5xl 2xl:max-w-7xl">
+        <h1 class="font-adlam text-black-primary text-2xl pt-14 lg:pt-36 lg:text-4xl">Browse by categories</h1>
+
+        <div
+          class="max-w-full grid grid-cols-[repeat(auto-fit,_minmax(min(100%,_140px),_1fr))] py-6 gap-2.5 lg:gap-4 lg:py-12 xl:grid-cols-[repeat(auto-fit,_minmax(min(100%,_180px),_1fr))] xl:gap-6">
+          <!-- Card 1 -->
+          <div
+            class="grid px-12 py-9 rounded-xl row-span-2 grid-rows-subgrid gap-2.5 bg-yellow-a1 items-center lg:gap-4 xl:gap-6">
+            <div class="p-4 bg-white rounded-full flex justify-center items-center lg:py-7"><img
+                src="./assets/dog-cartoon.png" alt="dog cartoon icon"></div>
+
+            <div>
+              <h4 class="font-adlam text-black-primary text-center lg:text-xl">Dog</h4>
+              <span class="font-sora text-black-primary text-center block mt-3">8 items</span>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div
+            class="grid px-12 py-9 rounded-xl row-span-2 grid-rows-subgrid gap-2.5 bg-yellow-a1 items-center lg:gap-4 xl:gap-6">
+            <div class="p-4 bg-white rounded-full flex justify-center items-center lg:py-7"><img
+                src="./assets/fish-cartoon.png" alt="dog cartoon icon"></div>
+
+            <div>
+              <h4 class="font-adlam text-black-primary text-center lg:text-xl">Fish</h4>
+              <span class="font-sora text-black-primary text-center block mt-3">4 items</span>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div
+            class="grid px-12 py-9 rounded-xl row-span-2 grid-rows-subgrid gap-2.5 bg-yellow-a1 items-center lg:gap-4 xl:gap-6">
+            <div class="p-4 bg-white rounded-full flex justify-center items-center lg:py-7"><img
+                src="./assets/cat-cartoon.png" alt="dog cartoon icon"></div>
+
+            <div>
+              <h4 class="font-adlam text-black-primary text-center lg:text-xl">Cat</h4>
+              <span class="font-sora text-black-primary text-center block mt-3">9 items</span>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div
+            class="grid px-12 py-9 rounded-xl row-span-2 grid-rows-subgrid gap-2.5 bg-yellow-a1 items-center lg:gap-4 xl:gap-6">
+            <div class="p-4 bg-white rounded-full flex justify-center items-center lg:py-7"><img
+                src="./assets/bird-cartoon.png" alt="dog cartoon icon"></div>
+
+            <div>
+              <h4 class="font-adlam text-black-primary text-center lg:text-xl">Bird</h4>
+              <span class="font-sora text-black-primary text-center block mt-3">6 items</span>
+            </div>
+          </div>
+
+          <!-- Card 5 -->
+          <div
+            class="grid px-12 py-9 rounded-xl row-span-2 grid-rows-subgrid gap-2.5 bg-yellow-a1 items-center lg:gap-4 xl:gap-6">
+            <div class="p-4 bg-white rounded-full flex justify-center items-center lg:py-7"><img
+                src="./assets/mouse-cartoon.png" alt="dog cartoon icon"></div>
+
+            <div>
+              <h4 class="font-adlam text-black-primary text-center lg:text-xl">Small Pet</h4>
+              <span class="font-sora text-black-primary text-center block mt-3">4 items</span>
+            </div>
+          </div>
+
+          <!-- Card 6 -->
+          <div
+            class="grid px-12 py-9 rounded-xl row-span-2 grid-rows-subgrid gap-2.5 bg-yellow-a1 items-center lg:gap-4 xl:gap-6">
+            <div class="p-4 bg-white rounded-full flex justify-center items-center lg:py-7"><img
+                src="./assets/rabbit-cartoon.png" alt="dog cartoon icon"></div>
+
+            <div>
+              <h4 class="font-adlam text-black-primary text-center lg:text-xl">Rabbit</h4>
+              <span class="font-sora text-black-primary text-center block mt-3">2 items</span>
+            </div>
+          </div>
+
+
+        </div>
+
+
+      </div>
+
+
+
+    </section>
 
   </main>
 
