@@ -797,11 +797,6 @@
       grid-template-columns: repeat(auto-fit, minmax(min(100%, 100px), 1fr));
     }
   }
-  .lg\:grid-cols-\[repeat\(auto-fit\,_minmax\(min\(100\%\,_15px\)\,_1fr\)\)\] {
-    @media (width >= 64rem) {
-      grid-template-columns: repeat(auto-fit, minmax(min(100%, 15px), 1fr));
-    }
-  }
   .lg\:grid-cols-\[repeat\(auto-fit\,_minmax\(min\(100\%\,_140px\)\,_1fr\)\)\] {
     @media (width >= 64rem) {
       grid-template-columns: repeat(auto-fit, minmax(min(100%, 140px), 1fr));
@@ -812,14 +807,14 @@
       grid-template-columns: repeat(auto-fit, minmax(min(100%, 14px), 1fr));
     }
   }
-  .lg\:grid-cols-\[repeat\(auto-fit\,_minmax\(min\(100\%\,_20px\)\,_1fr\)\)\] {
-    @media (width >= 64rem) {
-      grid-template-columns: repeat(auto-fit, minmax(min(100%, 20px), 1fr));
-    }
-  }
   .lg\:grid-cols-\[repeat\(auto-fit\,_minmax\(min\(100\%\,_150px\)\,_1fr\)\)\] {
     @media (width >= 64rem) {
       grid-template-columns: repeat(auto-fit, minmax(min(100%, 150px), 1fr));
+    }
+  }
+  .lg\:grid-cols-\[repeat\(auto-fit\,_minmax\(min\(100\%\,_15px\)\,_1fr\)\)\] {
+    @media (width >= 64rem) {
+      grid-template-columns: repeat(auto-fit, minmax(min(100%, 15px), 1fr));
     }
   }
   .lg\:grid-cols-\[repeat\(auto-fit\,_minmax\(min\(100\%\,_160px\)\,_1fr\)\)\] {
@@ -827,14 +822,19 @@
       grid-template-columns: repeat(auto-fit, minmax(min(100%, 160px), 1fr));
     }
   }
-  .lg\:grid-cols-\[repeat\(auto-fit\,_minmax\(min\(100\%\,_180px\)\,_1fr\)\)\] {
-    @media (width >= 64rem) {
-      grid-template-columns: repeat(auto-fit, minmax(min(100%, 180px), 1fr));
-    }
-  }
   .lg\:grid-cols-\[repeat\(auto-fit\,_minmax\(min\(100\%\,_200px\)\,_1fr\)\)\] {
     @media (width >= 64rem) {
       grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr));
+    }
+  }
+  .lg\:grid-cols-\[repeat\(auto-fit\,_minmax\(min\(100\%\,_20px\)\,_1fr\)\)\] {
+    @media (width >= 64rem) {
+      grid-template-columns: repeat(auto-fit, minmax(min(100%, 20px), 1fr));
+    }
+  }
+  .lg\:grid-cols-\[repeat\(auto-fit\,_minmax\(min\(100\%\,_180px\)\,_1fr\)\)\] {
+    @media (width >= 64rem) {
+      grid-template-columns: repeat(auto-fit, minmax(min(100%, 180px), 1fr));
     }
   }
   .lg\:grid-cols-\[repeat\(auto-fit\,_minmax\(min\(100\%\,_240px\)\,_1fr\)\)\] {
@@ -876,6 +876,12 @@
     @media (width >= 64rem) {
       border-style: var(--tw-border-style);
       border-width: 1px;
+    }
+  }
+  .lg\:border-none {
+    @media (width >= 64rem) {
+      --tw-border-style: none;
+      border-style: none;
     }
   }
   .lg\:border-yellow-primary {
@@ -1114,19 +1120,4 @@
 @property --tw-skew-y {
   syntax: "*";
   inherits: false;
-  initial-value: skewY(0);
-}
-@property --tw-border-style {
-  syntax: "*";
-  inherits: false;
-  initial-value: solid;
-}
-@property --tw-outline-style {
-  syntax: "*";
-  inherits: false;
-  initial-value: solid;
-}
-@property --tw-leading {
-  syntax: "*";
-  inherits: false;
-}
+  initial-value: ske
